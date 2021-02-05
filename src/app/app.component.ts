@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'wiki-search';
+  searchResultsFromSearchBox: any = null;
+
+  showResults(results: any){
+    this.searchResultsFromSearchBox = results;
+  }
 }

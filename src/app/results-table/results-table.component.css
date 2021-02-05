@@ -1,0 +1,15 @@
+table {
+    width: 100%;
+}
+th.mat-header-cell {
+    text-align: center;
+}
+tbody {
+    text-align: center;
+}
+td.mat-cell {
+    padding: 0 1%;
+}
+td.mat-cell span.searchmatch {
+    background-color:#ff0000;
+}
